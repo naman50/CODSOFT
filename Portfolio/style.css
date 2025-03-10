@@ -1,0 +1,51 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #0f0f0f;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: linear-gradient(45deg, #ff00ff, #00ffff);
+    color: white;
+    padding: 20px;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.glitch {
+    font-size: 36px;
+    animation: glitch 1s infinite;
+}
+@keyframes glitch {
+    0% { text-shadow: 4px 4px #ff00ff; }
+    50% { text-shadow: -4px -4px #00ffff; }
+    100% { text-shadow: 4px 4px #ff00ff; }
+}
+.section {
+    padding: 60px;
+    transition: all 0.3s ease;
+}
+.project-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+.project-card:hover {
+    transform: scale(1.05);
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff00ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+footer {
+    background: #111;
+    padding: 10px;
+}
+
